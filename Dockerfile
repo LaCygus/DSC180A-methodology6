@@ -15,7 +15,7 @@ USER root
 
 RUN apt update
 
-RUN apt-get -y install traceroute nmap aria2
+RUN apt-get -y install aria2 nmap traceroute
 
 # 3) install packages using notebook user
 USER jovyan
